@@ -1,0 +1,21 @@
+﻿Organizare:
+
+Structura aleasa este formata din so_stdio.c, so_stdio.h si un header 
+auxiliar aux.h in care am definit structura si flagurile folosite.
+
+Consider ca tema este utila deoarece ofera o buna perspectiva asupra 
+implementarii din spatele unor functii des folosite in limbajul C.
+
+Implementare:
+
+Tema este realizata partial (78 puncte pe vmchecker), nu include 
+partea de procese si nici functionalitatea de windows. 
+Makefile ul include reguli de build si clean.
+
+Compilare și rulare:
+make
+make -f Makefile.checker
+
+Bibliografie:
+https://ocw.cs.pub.ro/courses/so/cursuri/curs-02
+https://ocw.cs.pub.ro/courses/so/laboratoare/laborator-02
